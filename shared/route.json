@@ -1,0 +1,11 @@
+{
+  "route": {
+    "rules": [
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      }
+    ],
+    "final": "warp"
+  }
+}
