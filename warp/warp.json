@@ -3,7 +3,7 @@
     {
       "tag": "warp",
       "type": "wireguard",
-      "server": "engage.cloudflareclient.com",
+      "server": "<endpoint>",
       "server_port": 2408,
       "local_address": ["172.16.0.2/32", "<ipv6-local-address>"],
       "private_key": "<private-key>",
