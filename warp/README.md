@@ -37,11 +37,11 @@ outbound 示例:
   "server": "<endpoint>", // IPv4/IPv6 endpoint, 或域名 engage.cloudflareclient.com
   "server_port": 2408,
   "local_address": [
-    "172.16.0.2", 
+    "172.16.0.2/32", 
     "<ipv6-local-address>" // 填写上面的 "v6" 地址
   ],
   "private_key": "private-key",
-  "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
   "reserved": [170, 170, 170], // 填写上面的 "reserved_dec"
   "mtu": 1280
 }
